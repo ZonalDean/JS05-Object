@@ -3,3 +3,11 @@
 - เพิ่ม property ชื่อ surname ให้มีค่าเท่ากับ Doe
 - Update property name ให้มีค่าเป็น Matt
 - ลบ property name
+
+object: user
+    name john
+    surname doe
+
+updatre name => Matt
+
+delte name
