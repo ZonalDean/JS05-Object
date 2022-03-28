@@ -8,7 +8,7 @@ const product2 = product1;
 product2.name = 'Pepsi';
 product2.price = 19;
 
-console.log(product1); // *
-console.log(product2); // **
-console.log(product1 === product2); // ***
+console.log(product1); // * shows object > keys: value
+console.log(product2); // ** shows same as above
+console.log(product1 === product2); // *** tru
 ```
