@@ -9,5 +9,5 @@ function makeUser() {
   };
 }
 let user = makeUser();
-console.log(user.ref.name); // *
+console.log(user.ref.name); // * Joe because it calls name that is from outside the function
 ```

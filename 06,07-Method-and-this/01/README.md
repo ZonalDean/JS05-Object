@@ -8,5 +8,5 @@ let user = {
   }
 };
 
-(user.sayHi)(); // *
+(user.sayHi)(); // * John because because user.sayHi is function which includes this.name which is John
 ```
