@@ -7,10 +7,15 @@ const notebook = {
     storage: '512GB PCIe NVMe M.2 SSD'
   };
 
+  // ^ using for loop
 const laptop = {};
 
 for (let key in notebook) {
     laptop[key] =notebook[key];
 };
 
+// use object.assign
+const laptopByAss = Object.assign({}, notebook);
+
 console.log(laptop)
+console.log(laptopByAss)
